@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+
+    <h2>Q.1:- Explain box sizing Properties with examples?</h2>
+    <div class="Answer">
+        <p>The box-sizing property defines how the width and height of an element are calculated, should they include
+            padding and borders, or not.</p>
+
+        <p><b>Border-box : </b> Border-box include padding and border of an element within. <br> <b> For example : </b>
+            if width is 300px, padding is 10px and border is 5px, then content width is 270px, but overall width
+            (border-box) will be 300px. Means content width will reduce to maintain border-box</p>
+        <div class="square square1">Square 1 <br> box-sizing: border-box;</div>
+
+
+        <p><b>Content-box : </b>Content-box is default value of div tag. By adding border and padding to a div with
+            fixed width can change overall width ( border box) of div. <br> <b> For example: </b> If width is 300px,
+            padding is 10px and border is 5px, then content width is 300px, but overall width (border-box) will be 330px
+            by adding padding and border with width.</p>
+        <div class="square square2"> Square 2 <br> box-sizing: content-box;</div>
+    </div>
+    <br><br>
+
+    <h2>Q.2:- Create two boxes and box1 should be on top and box2 should be on bottom</h2>
+    <div class="Answer">
+        <div class="sqr sqr1">BOX 1</div>
+        <div class="sqr sqr2">BOX 2</div>
+    </div>
+
+    <br><br>
+    <h2>Q 3 : Arrange 5 boxes in alternate manner , first box on left of screen , second on right of screen and so on
+    </h2>
+    <h2><u>Float and Clear Property of CSS</u></h2>
+        <div class="box box1">BOX 1</div>
+        <div class="box box2">BOX 2</div>
+        <div class="box box3">BOX 3</div>
+        <div class="box box4">BOX 4</div>
+        <div class="box box5">BOX 5</div>
+</body>
+
+</html>
